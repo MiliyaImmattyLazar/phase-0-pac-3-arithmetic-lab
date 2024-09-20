@@ -22,12 +22,14 @@ function decrement(n){
 return n-=1
 }
 decrement(5)
+
 function makeInt(n){
-    return parseInt(n)
+    return parseInt(n,10)
 }
 makeInt('10')
+
 function preserveDecimal(n)
 {
-return n
+return parseFloat(n)
 }
 preserveDecimal('2.222')
